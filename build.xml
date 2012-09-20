@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="gb2312"?>
+<?xml-stylesheet type="text/xsl" href="./ant2html.xsl"?>
+
+<!-- $Id: build.xml,v 1.1 2004/07/27 15:04:30 l_walker Exp $ -->
+<!-- l_walker(walker@skyinn.org) of Skyinn Group http://www.skyinn.org -->
+
+<!-- 
+-->
+
+<project name="Quasar" default="usage">
+	
+	
+	<property file="build.properties"/>
+
+	<target name="usage">
+	
+	</target>
+
+	<target name="init" description="">
+		<tstamp />
+	</target>
+
+	<!--clean-->
+	<target name="clean" description="">
+		<ant antfile="${antcolony.dir}/build-common.xml" target="clean-j2ee"/>
+		<!--clean server files-->
+	</target>
+
+	<!--build-->
+	<target name="build" description="">
+		<ant antfile="${antcolony.dir}/build-common.xml" target="build"/>
+	</target>
+	
+	<!--jar-->
+	<target  name="jar" description="">
+		<ant antfile="${antcolony.dir}/build-common.xml" target="jar"/>
+	</target>
+	
+	<!--war-->	
+	<target  name="war" description="">
+		<ant antfile="${antcolony.dir}/build-common.xml" target="war"/>
+	</target>
+	
+	<!--test-->
+	<target  name="test" description="">
+		<ant antfile="${antcolony.dir}/build-test.xml" target="report"/>
+	</target>
+	
+	<!--hibernate-->
+	<target  name="hibernate" description="">
+		<ant antfile="${antcolony.dir}/build-hibernate.xml" target="hibernate"/>
+	</target>	
+	
+	<target name="exportschema" >
+		<ant antfile="${antcolony.dir}/build-hibernate.xml" target="exportschema"/>
+	</target>
+	
+	<!--javadoc-->
+	<target name="javadoc" >
+		<ant antfile="${antcolony.dir}/build-generate.xml" target="javadoc"/>
+	</target>	
+	
+	<!--j2h-->
+	<target name="j2h" >
+		<ant antfile="${antcolony.dir}/build-generate.xml" target="j2h"/>
+	</target>		
+	
+	<!--style-->
+	<!--deploy-->
+	<!--release-->
+	<!--server-->
+	
+
+
+</project>

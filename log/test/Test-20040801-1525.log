@@ -1,0 +1,104 @@
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:01 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] (support.PathMatchingResourcePatternResolver 60  ) Resolved location subPattern [/org/skyinn/**/applicationContext*.xml] to file paths: [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\dao\applicationContext-hibernate.xml, D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\service\applicationContext-service.xml]
+    [junit] (xml.XmlBeanDefinitionReader         118 ) Loading XML bean definitions from file [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\dao\applicationContext-hibernate.xml]
+    [junit] (xml.XmlBeanDefinitionReader         118 ) Loading XML bean definitions from file [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\service\applicationContext-service.xml]
+    [junit] (support.ClassPathXmlApplicationContext 68  ) Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=31436753]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSource,sessionFactory,transactionManager,userDAO,userServiceTarget,userService,defaultTxAttributes]; Root of BeanFactory hierarchy
+    [junit] (support.ClassPathXmlApplicationContext 249 ) 7 beans defined in ApplicationContext [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=31436753]
+    [junit] (support.ClassPathXmlApplicationContext 337 ) No MessageSource found for context [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=31436753]: using empty StaticMessageSource
+    [junit] (support.ClassPathXmlApplicationContext 358 ) Refreshing listeners
+    [junit] (support.DefaultListableBeanFactory  168 ) Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSource,sessionFactory,transactionManager,userDAO,userServiceTarget,userService,defaultTxAttributes]; Root of BeanFactory hierarchy]
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'dataSource'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'sessionFactory'
+    [junit] (cfg.Environment                     462 ) Hibernate 2.1.4
+    [junit] (cfg.Environment                     491 ) hibernate.properties not found
+    [junit] (cfg.Environment                     522 ) using CGLIB reflection optimizer
+    [junit] (cfg.Binder                          229 ) Mapping class: org.skyinn.quasar.foo.domain.User -> t_user
+    [junit] (hibernate.LocalSessionFactoryBean   372 ) Building new Hibernate SessionFactory
+    [junit] (cfg.Configuration                   613 ) processing one-to-many association mappings
+    [junit] (cfg.Configuration                   622 ) processing one-to-one association property references
+    [junit] (cfg.Configuration                   647 ) processing foreign key constraints
+    [junit] (dialect.Dialect                     82  ) Using dialect: net.sf.hibernate.dialect.MySQLDialect
+    [junit] (cfg.SettingsFactory                 62  ) Use outer join fetching: false
+    [junit] (connection.ConnectionProviderFactory 53  ) Initializing connection provider: org.springframework.orm.hibernate.LocalDataSourceConnectionProvider
+    [junit] (transaction.TransactionManagerLookupFactory 33  ) No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+    [junit] (cfg.SettingsFactory                 102 ) Use scrollable result sets: true
+    [junit] (cfg.SettingsFactory                 105 ) Use JDBC3 getGeneratedKeys(): true
+    [junit] (cfg.SettingsFactory                 108 ) Optimize cache for minimal puts: false
+    [junit] (cfg.SettingsFactory                 114 ) echoing all SQL to stdout
+    [junit] (cfg.SettingsFactory                 117 ) Query language substitutions: {}
+    [junit] (cfg.SettingsFactory                 128 ) cache provider: net.sf.ehcache.hibernate.Provider
+    [junit] (cfg.Configuration                   1093) instantiating and configuring caches
+    [junit] (impl.SessionFactoryImpl             119 ) building session factory
+    [junit] (impl.SessionFactoryObjectFactory    82  ) no JNDI name configured
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'transactionManager'
+    [junit] (hibernate.HibernateTransactionManager 231 ) Using DataSource [org.apache.commons.dbcp.BasicDataSource@faa550] from Hibernate SessionFactory for HibernateTransactionManager
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'userDAO'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'userService'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'defaultTxAttributes'
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] 2004-8-1 15:26:10 java.util.jar.Attributes read
+    [junit] 少御: Duplicate name in Manifest: Class-Path
+    [junit] (support.PathMatchingResourcePatternResolver 60  ) Resolved location subPattern [/org/skyinn/**/applicationContext*.xml] to file paths: [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\dao\applicationContext-hibernate.xml, D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\service\applicationContext-service.xml]
+    [junit] (xml.XmlBeanDefinitionReader         118 ) Loading XML bean definitions from file [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\dao\applicationContext-hibernate.xml]
+    [junit] (xml.XmlBeanDefinitionReader         118 ) Loading XML bean definitions from file [D:\MyWorks\dev\Quasar\build\classes\org\skyinn\quasar\foo\service\applicationContext-service.xml]
+    [junit] (support.ClassPathXmlApplicationContext 68  ) Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=9424533]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSource,sessionFactory,transactionManager,userDAO,userServiceTarget,userService,defaultTxAttributes]; Root of BeanFactory hierarchy
+    [junit] (support.ClassPathXmlApplicationContext 249 ) 7 beans defined in ApplicationContext [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=9424533]
+    [junit] (support.ClassPathXmlApplicationContext 337 ) No MessageSource found for context [org.springframework.context.support.ClassPathXmlApplicationContext;hashCode=9424533]: using empty StaticMessageSource
+    [junit] (support.ClassPathXmlApplicationContext 358 ) Refreshing listeners
+    [junit] (support.DefaultListableBeanFactory  168 ) Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSource,sessionFactory,transactionManager,userDAO,userServiceTarget,userService,defaultTxAttributes]; Root of BeanFactory hierarchy]
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'dataSource'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'sessionFactory'
+    [junit] (cfg.Environment                     462 ) Hibernate 2.1.4
+    [junit] (cfg.Environment                     491 ) hibernate.properties not found
+    [junit] (cfg.Environment                     522 ) using CGLIB reflection optimizer
+    [junit] (cfg.Binder                          229 ) Mapping class: org.skyinn.quasar.foo.domain.User -> t_user
+    [junit] (hibernate.LocalSessionFactoryBean   372 ) Building new Hibernate SessionFactory
+    [junit] (cfg.Configuration                   613 ) processing one-to-many association mappings
+    [junit] (cfg.Configuration                   622 ) processing one-to-one association property references
+    [junit] (cfg.Configuration                   647 ) processing foreign key constraints
+    [junit] (dialect.Dialect                     82  ) Using dialect: net.sf.hibernate.dialect.MySQLDialect
+    [junit] (cfg.SettingsFactory                 62  ) Use outer join fetching: false
+    [junit] (connection.ConnectionProviderFactory 53  ) Initializing connection provider: org.springframework.orm.hibernate.LocalDataSourceConnectionProvider
+    [junit] (transaction.TransactionManagerLookupFactory 33  ) No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+    [junit] (cfg.SettingsFactory                 102 ) Use scrollable result sets: true
+    [junit] (cfg.SettingsFactory                 105 ) Use JDBC3 getGeneratedKeys(): true
+    [junit] (cfg.SettingsFactory                 108 ) Optimize cache for minimal puts: false
+    [junit] (cfg.SettingsFactory                 114 ) echoing all SQL to stdout
+    [junit] (cfg.SettingsFactory                 117 ) Query language substitutions: {}
+    [junit] (cfg.SettingsFactory                 128 ) cache provider: net.sf.ehcache.hibernate.Provider
+    [junit] (cfg.Configuration                   1093) instantiating and configuring caches
+    [junit] (impl.SessionFactoryImpl             119 ) building session factory
+    [junit] (impl.SessionFactoryObjectFactory    82  ) no JNDI name configured
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'transactionManager'
+    [junit] (hibernate.HibernateTransactionManager 231 ) Using DataSource [org.apache.commons.dbcp.BasicDataSource@1e903d5] from Hibernate SessionFactory for HibernateTransactionManager
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'userDAO'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'userService'
+    [junit] (support.DefaultListableBeanFactory  158 ) Creating shared instance of singleton bean 'defaultTxAttributes'
+    [junit] (hibernate.HibernateTransactionManager 315 ) Initiating transaction commit
+    [junit] (hibernate.HibernateTransactionManager 315 ) Initiating transaction commit
+    [junit] (hibernate.HibernateTransactionManager 315 ) Initiating transaction commit
+    [junit] (hibernate.HibernateTransactionManager 315 ) Initiating transaction commit

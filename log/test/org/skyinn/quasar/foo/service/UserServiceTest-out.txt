@@ -1,0 +1,3 @@
+Hibernate: insert into t_user (email, name, password) values (?, ?, ?)
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )

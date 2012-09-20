@@ -1,0 +1,11 @@
+Hibernate: insert into t_user (email, name, password) values (?, ?, ?)
+org.skyinn.quasar.foo.domain.User@2b7db1[
+  id=15
+  email=walker@skyinn.org
+  password=password
+  name=l_walker1091345168227
+]
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )
+Hibernate: select user0_.id as id0_, user0_.email as email0_, user0_.name as name0_, user0_.password as password0_ from t_user user0_ where user0_.id=?
+Hibernate: delete from t_user where id=?
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )

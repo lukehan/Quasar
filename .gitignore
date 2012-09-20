@@ -1,0 +1,13 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+/.settings
+/.idea
+/target
+/CVS
+*/CVS
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" name="org.skyinn.quasar.foo.service.UserServiceTest" tests="1" time="0.641">
+  <properties>
+    <property name="antcolony.system.lib" value="D:/Application/Ant/lib"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="env.PROMPT" value="$P$G"></property>
+    <property name="app.log.runtime" value="./../Quasar/log/runtime"></property>
+    <property name="app.package.dir" value="org/skyinn/quasar"></property>
+    <property name="java.home" value="D:\Application\JDK1.4\jre"></property>
+    <property name="java.endorsed.dirs" value="D:\Application\JDK1.4\jre\lib\endorsed"></property>
+    <property name="antcolony.lib.j2ee" value="./../antcolony/lib/buildtime/j2ee.lib"></property>
+    <property name="env.USERNAME" value="administrator"></property>
+    <property name="app.release.name" value="Quasar-0.3"></property>
+    <property name="app.src.dir" value="./../Quasar/src"></property>
+    <property name="sun.os.patch.level" value="Service Pack 4"></property>
+    <property name="java.vendor.url" value="http://java.sun.com/"></property>
+    <property name="env.INCLUDE" value="D:\IBM\SQLLIB\INCLUDE;D:\IBM\SQLLIB\LIB;D:\IBM\SQLLIB\TEMPLATES\INCLUDE"></property>
+    <property name="env.COMPUTERNAME" value="IBM-KKXDG"></property>
+    <property name="app.config.struts" value="./../Quasar/config/struts"></property>
+    <property name="java.version" value="1.4.2_04"></property>
+    <property name="template.dir" value="D:\MyWorks\dev\Quasar/template"></property>
+    <property name="app.dist.dir" value="./../Quasar/dist"></property>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+    <property name="app.log.buildtime" value="./../Quasar/log/buildtime"></property>
+    <property name="env.USERPROFILE" value="C:\Documents and Settings\Administrator"></property>
+    <property name="env.SystemRoot" value="C:\WINNT"></property>
+    <property name="user.name" value="administrator"></property>
+    <property name="lib.java" value="D:\MyWorks\dev\Quasar/lib/lib-java"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="app.src.hibernate" value="./../Quasar/src/hibernate"></property>
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+    <property name="app.lib.dir" value="./../Quasar/lib"></property>
+    <property name="env.DB2INSTANCE" value="DB2"></property>
+    <property name="lib.dir" value="D:\MyWorks\dev\Quasar/lib"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="app.metadata.dir" value="./../Quasar/metadata"></property>
+    <property name="app.package.name" value="org.skyinn.quasar"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 8 Stepping 6, GenuineIntel"></property>
+    <property name="env._JAVACMD" value="D:\Application\JDK1.4\bin\java.exe"></property>
+    <property name="file.encoding" value="GBK"></property>
+    <property name="test.log" value="Test-20040801-1525.log"></property>
+    <property name="env.NUMBER_OF_PROCESSORS" value="1"></property>
+    <property name="ant.file" value="D:\MyWorks\dev\antcolony\build-test.xml"></property>
+    <property name="app.web.classes" value="./../Quasar/web/web-inf/classes"></property>
+    <property name="app.web.config" value="./../Quasar/config/web"></property>
+    <property name="AntColony" value=""></property>
+    <property name="antcolony.lib.hibernate" value="./../antcolony/lib/runtime/hibernate.lib"></property>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\"></property>
+    <property name="TODAY" value="August 1 2004"></property>
+    <property name="user.language" value="zh"></property>
+    <property name="env.SystemDrive" value="C:"></property>
+    <property name="antcolony.lib.buildtime" value="./../antcolony/lib/buildtime"></property>
+    <property name="antcolony.lib.runtime" value="./../antcolony/lib/runtime"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="app.config.log" value="./../Quasar/config/log"></property>
+    <property name="app.build.config" value="D:\MyWorks\dev\Quasar/default-build.properties"></property>
+    <property name="app.log.dir" value="./../Quasar/log"></property>
+    <property name="antcolony.lib.junit" value="./../antcolony/lib/buildtime/junit.lib"></property>
+    <property name="env.DB2TEMPDIR" value="D:\IBM\SQLLIB\"></property>
+    <property name="java.vm.info" value="mixed mode"></property>
+    <property name="antcolony.lib.log4j" value="./../antcolony/lib/runtime/log4j.lib"></property>
+    <property name="java.util.prefs.PreferencesFactory" value="java.util.prefs.WindowsPreferencesFactory"></property>
+    <property name="app.version" value="0.3"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"></property>
+    <property name="env.TOMCAT_HOME" value="D:\Server\Tomcat41"></property>
+    <property name="app.build.classes" value="./../Quasar/build/classes"></property>
+    <property name="app.release.src" value="Quasar-0.3-src"></property>
+    <property name="env.LOGONSERVER" value="\\IBM-KKXDG"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="app.lib.buildtime" value="./../Quasar/lib/buildtime"></property>
+    <property name="antcolony.lib.struts" value="./../antcolony/lib/runtime/struts.lib"></property>
+    <property name="app.encoding" value="gb2312"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.2 compiled on July 16 2004"></property>
+    <property name="env.USERDOMAIN" value="IBM-KKXDG"></property>
+    <property name="lib.j2ee" value="D:\MyWorks\dev\Quasar/lib/lib-j2ee"></property>
+    <property name="env.PROCESSOR_LEVEL" value="6"></property>
+    <property name="env.windir" value="C:\WINNT"></property>
+    <property name="env.CLASSPATH" value=".;D:\IBM\SQLLIB\java\db2java.zip;D:\IBM\SQLLIB\java\db2jcc.jar;D:\IBM\SQLLIB\java\sqlj.zip;D:\IBM\SQLLIB\bin;D:\IBM\SQLLIB\java\common.jar;"></property>
+    <property name="os.name" value="Windows 2000"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="env.TMP" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="ant.file.Quasar" value="D:\MyWorks\dev\Quasar\build.xml"></property>
+    <property name="app.web.tld" value="./../Quasar/web/web-inf/tld"></property>
+    <property name="env.OS" value="Windows_NT"></property>
+    <property name="template.java" value="D:\MyWorks\dev\Quasar/template/app-java"></property>
+    <property name="java.library.path" value="D:\Application\JDK1.4\jre\bin;.;C:\WINNT\system32;C:\WINNT;C:\WINNT\system32;C:\WINNT;C:\WINNT\System32\Wbem;c:\notes;c:\Utilities;C:\Notes;D:\Application\SecureCRT\;D:\Application\JDK1.4\bin;d:\Application\Ant\bin;D:\IBM\SQLLIB\BIN;D:\IBM\SQLLIB\FUNCTION;D:\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\GNU\WinCvs 1.3\;;d:\Server\Cvsnt;"></property>
+    <property name="app.config.web" value="./../Quasar/config/web"></property>
+    <property name="ant.java.version" value="1.4"></property>
+    <property name="antcolony.name" value="antcolony"></property>
+    <property name="basedir" value="D:\MyWorks\dev\Quasar"></property>
+    <property name="java.class.version" value="48.0"></property>
+    <property name="ant.home" value="D:\Application\Ant"></property>
+    <property name="antcolony.tld.jstl" value="./tld/jstl.tld"></property>
+    <property name="env.Path" value="C:\WINNT\system32;C:\WINNT;C:\WINNT\System32\Wbem;c:\notes;c:\Utilities;C:\Notes;D:\Application\SecureCRT\;D:\Application\JDK1.4\bin;d:\Application\Ant\bin;D:\IBM\SQLLIB\BIN;D:\IBM\SQLLIB\FUNCTION;D:\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\GNU\WinCvs 1.3\;;d:\Server\Cvsnt;"></property>
+    <property name="app.src.xml" value="./../Quasar/src/xml"></property>
+    <property name="env.HOMEDRIVE" value="C:"></property>
+    <property name="app.config.style" value="./../Quasar/config/style"></property>
+    <property name="app.doc.api" value="./../Quasar/docs/api"></property>
+    <property name="ant.file.build-test" value="D:\MyWorks\dev\antcolony\build-test.xml"></property>
+    <property name="antcolony.dir" value="./../antcolony"></property>
+    <property name="env.Os2LibPath" value="C:\WINNT\system32\os2\dll;"></property>
+    <property name="app.doc.dir" value="./../Quasar/docs"></property>
+    <property name="sun.boot.library.path" value="D:\Application\JDK1.4\jre\bin"></property>
+    <property name="env.PROCESSOR_REVISION" value="0806"></property>
+    <property name="antcolony.lib.dir" value="./../antcolony/lib"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="user.variant" value=""></property>
+    <property name="app.src.java" value="./../Quasar/src/java"></property>
+    <property name="app.doc.uml" value="./../Quasar/docs/uml"></property>
+    <property name="base.dir" value="."></property>
+    <property name="ant.project.name" value="build-test"></property>
+    <property name="antcolony.tld.dir" value="./tld"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="sun.cpu.isalist" value="pentium i486 i386"></property>
+    <property name="java.ext.dirs" value="D:\Application\JDK1.4\jre\lib\ext"></property>
+    <property name="os.version" value="5.0"></property>
+    <property name="user.home" value="C:\Documents and Settings\Administrator"></property>
+    <property name="antcolony.lib.jstl" value="./../antcolony/lib/runtime/jstl.lib"></property>
+    <property name="app.web.webinf" value="./../Quasar/web/web-inf"></property>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+    <property name="antcolony.lib.ant" value="./../antcolony/lib/buildtime/ant.lib"></property>
+    <property name="env.JAVA_HOME" value="D:\Application\JDK1.4"></property>
+    <property name="antcolony.tld.struts" value="./tld/struts.tld"></property>
+    <property name="user.dir" value="D:\MyWorks\dev\Quasar"></property>
+    <property name="antcolony.lib.commons" value="./../antcolony/lib/runtime/commons.lib"></property>
+    <property name="app.release.bin" value="Quasar-0.3-bin"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"></property>
+    <property name="antcolony.version" value="1.0"></property>
+    <property name="app.config.hibernate" value="./../Quasar/config/hibernate"></property>
+    <property name="app.config.app" value="./../Quasar/config/app"></property>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"></property>
+    <property name="java.vm.version" value="1.4.2_04-b05"></property>
+    <property name="java.class.path" value="D:\Application\Ant\lib\ant-launcher.jar;D:\MyWorks\dev\Quasar;D:\IBM\SQLLIB\java\db2java.zip;D:\IBM\SQLLIB\java\db2jcc.jar;D:\IBM\SQLLIB\java\sqlj.zip;D:\IBM\SQLLIB\bin;D:\IBM\SQLLIB\java\common.jar;D:\Application\Ant\lib\ant-antlr.jar;D:\Application\Ant\lib\ant-apache-bcel.jar;D:\Application\Ant\lib\ant-apache-bsf.jar;D:\Application\Ant\lib\ant-apache-log4j.jar;D:\Application\Ant\lib\ant-apache-oro.jar;D:\Application\Ant\lib\ant-apache-regexp.jar;D:\Application\Ant\lib\ant-apache-resolver.jar;D:\Application\Ant\lib\ant-commons-logging.jar;D:\Application\Ant\lib\ant-commons-net.jar;D:\Application\Ant\lib\ant-icontract.jar;D:\Application\Ant\lib\ant-jai.jar;D:\Application\Ant\lib\ant-javamail.jar;D:\Application\Ant\lib\ant-jdepend.jar;D:\Application\Ant\lib\ant-jmf.jar;D:\Application\Ant\lib\ant-jsch.jar;D:\Application\Ant\lib\ant-junit.jar;D:\Application\Ant\lib\ant-netrexx.jar;D:\Application\Ant\lib\ant-nodeps.jar;D:\Application\Ant\lib\ant-starteam.jar;D:\Application\Ant\lib\ant-stylebook.jar;D:\Application\Ant\lib\ant-swing.jar;D:\Application\Ant\lib\ant-trax.jar;D:\Application\Ant\lib\ant-vaj.jar;D:\Application\Ant\lib\ant-weblogic.jar;D:\Application\Ant\lib\ant-xalan1.jar;D:\Application\Ant\lib\ant-xslp.jar;D:\Application\Ant\lib\ant.jar;D:\Application\Ant\lib\junit.jar;D:\Application\Ant\lib\xercesImpl.jar;D:\Application\Ant\lib\xml-apis.jar;D:\Application\JDK1.4\lib\tools.jar;D:\MyWorks\dev\Quasar\build\classes;D:\MyWorks\dev\Quasar\lib\runtime\Quasar-0.3.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-attributes-api-SNAPSHOT.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-attributes-compiler-SNAPSHOT.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-beanutils.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-collections.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-configuration-1.0.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-dbcp.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-digester.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-discovery.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-fileupload.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-lang.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-logging.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-pool.jar;D:\MyWorks\dev\Quasar\lib\runtime\commons.lib\commons-validator.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\c3p0-0.8.4.5.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\cglib-full-2.0.1.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\concurrent-1.3.2.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\connector.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\dom4j-1.4.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\ehcache-0.7.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\hibernate2.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\jcs-1.0-dev.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\jdbc2_0-stdext.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\jgroups-2.2.1.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\jta.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\odmg-3.0.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\oscache-2.0.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\proxool-0.8.3.jar;D:\MyWorks\dev\Quasar\lib\runtime\hibernate.lib\swarmcache-1.0rc2.jar;D:\MyWorks\dev\Quasar\lib\runtime\jdbc.lib\mysql-connector-java-3.0.8-stable-bin.jar;D:\MyWorks\dev\Quasar\lib\runtime\jstl.lib\jstl.jar;D:\MyWorks\dev\Quasar\lib\runtime\jstl.lib\standard.jar;D:\MyWorks\dev\Quasar\lib\runtime\log4j.lib\log4j-1.2.7.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\aopalliance.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-aop.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-context.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-core.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-dao.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-mock.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-orm.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-web.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring-webmvc.jar;D:\MyWorks\dev\Quasar\lib\runtime\spring.lib\spring.jar;D:\MyWorks\dev\Quasar\lib\runtime\struts.lib\struts-legacy.jar;D:\MyWorks\dev\Quasar\lib\runtime\struts.lib\struts.jar;D:\MyWorks\dev\antcolony\lib\buildtime\cactus.lib\aspectjrt-1.0.6.jar;D:\MyWorks\dev\antcolony\lib\buildtime\cactus.lib\cactus-1.5-beta1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\cactus.lib\cactus-ant-1.5-beta1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\cactus.lib\commons-httpclient-2.0-beta2.jar;D:\MyWorks\dev\antcolony\lib\buildtime\j2ee.lib\jaas.jar;D:\MyWorks\dev\antcolony\lib\buildtime\j2ee.lib\mail.jar;D:\MyWorks\dev\antcolony\lib\buildtime\j2ee.lib\servlet.jar;D:\MyWorks\dev\antcolony\lib\buildtime\java2html.lib\j2h.jar;D:\MyWorks\dev\antcolony\lib\buildtime\junit.lib\junit.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\commons-collections-2.0.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\commons-logging.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\log4j.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\maven-xdoclet-plugin-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-apache-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-ejb-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-hibernate-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-java-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-jboss-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-jdo-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-jmx-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-spring-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-web-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xdoclet-xdoclet-module-1.2.1.jar;D:\MyWorks\dev\antcolony\lib\buildtime\xdoclet.lib\xjavadoc-1.0.3.jar"></property>
+    <property name="env.HOMEPATH" value="\USERS\DEFAULT"></property>
+    <property name="DSTAMP" value="20040801"></property>
+    <property name="template.j2ee" value="D:\MyWorks\dev\Quasar/template/app-j2ee"></property>
+    <property name="ant.library.dir" value="D:\Application\Ant\lib"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="app.metadata.db" value="./../Quasar/metadata/database"></property>
+    <property name="app.lib.runtime" value="./../Quasar/lib/runtime"></property>
+    <property name="app.web.lib" value="./../Quasar/web/web-inf/lib"></property>
+    <property name="antcolony.lib.cactus" value="./../antcolony/lib/buildtime/cacuts.lib"></property>
+    <property name="app.config.dir" value="./../Quasar/config"></property>
+    <property name="app.build.dir" value="./../Quasar/build"></property>
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files"></property>
+    <property name="env.ProgramFiles" value="C:\Program Files"></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="app.web.dir" value="./../Quasar/web"></property>
+    <property name="TSTAMP" value="1525"></property>
+    <property name="app.log.test" value="./../Quasar/log/test"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.runtime.version" value="1.4.2_04-b05"></property>
+    <property name="env.ANT_CMD_LINE_ARGS" value="test"></property>
+    <property name="sun.boot.class.path" value="D:\Application\JDK1.4\jre\lib\rt.jar;D:\Application\JDK1.4\jre\lib\i18n.jar;D:\Application\JDK1.4\jre\lib\sunrsasign.jar;D:\Application\JDK1.4\jre\lib\jsse.jar;D:\Application\JDK1.4\jre\lib\jce.jar;D:\Application\JDK1.4\jre\lib\charsets.jar;D:\Application\JDK1.4\jre\classes"></property>
+    <property name="env.ComSpec" value="C:\WINNT\system32\cmd.exe"></property>
+    <property name="app.name" value="Quasar"></property>
+    <property name="app.struts.config" value="./../Quasar/config/struts"></property>
+    <property name="env.TEMP" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp"></property>
+    <property name="app.src.db" value="./../Quasar/src/db"></property>
+    <property name="sun.java2d.fontpath" value=""></property>
+    <property name="user.country" value="CN"></property>
+    <property name="env.ANT_HOME" value="D:\Application\Ant"></property>
+    <property name="app.base.dir" value="./../Quasar"></property>
+    <property name="antcolony.lib.xdoclet" value="./../antcolony/lib/buildtime/xdoclet.lib"></property>
+    <property name="env.LIB" value="D:\IBM\SQLLIB\LIB"></property>
+    <property name="java.vendor" value="Sun Microsystems Inc."></property>
+    <property name="app.src.test" value="./../Quasar/src/test"></property>
+    <property name="env.CATALINA_HOME" value="D:\Server\Tomcat41"></property>
+    <property name="java.specification.version" value="1.4"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+  </properties>
+  <testcase classname="org.skyinn.quasar.foo.service.UserServiceTest" name="testCreateUser" time="0.601"></testcase>
+  <system-out><![CDATA[Hibernate: insert into t_user (email, name, password) values (?, ?, ?)
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )
+Hibernate: select user0_.id as id, user0_.email as email, user0_.name as name, user0_.password as password from t_user user0_ where (user0_.name=? )
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

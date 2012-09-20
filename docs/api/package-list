@@ -1,0 +1,15 @@
+org.skyinn.quasar.common
+org.skyinn.quasar.dao
+org.skyinn.quasar.filter
+org.skyinn.quasar.foo.dao
+org.skyinn.quasar.foo.domain
+org.skyinn.quasar.foo.service
+org.skyinn.quasar.member
+org.skyinn.quasar.module
+org.skyinn.quasar.service
+org.skyinn.quasar.service.ldap
+org.skyinn.quasar.service.mail
+org.skyinn.quasar.struts.action
+org.skyinn.quasar.struts.form
+org.skyinn.quasar.test
+org.skyinn.quasar.util

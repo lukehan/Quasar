@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<!-- 
+		Datasource that works in any application server
+		You could easily use J2EE data source instead if this were
+		running inside of a J2EE container.
+	 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"><value>org.gjt.mm.mysql.Driver</value></property>
+		<property name="url"><value>jdbc:mysql://localhost/foo</value></property>
+		<property name="username"><value>root</value></property>
+		<property name="password"><value></value></property>
+	</bean>
+
+
+    <!-- Hibernate SessionFactory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate.LocalSessionFactoryBean">
+        <property name="dataSource"><ref bean="dataSource"/></property>
+        <property name="mappingResources">
+            <list>
+                <value>org/skyinn/quasar/foo/domain/User.hbm.xml</value>
+            </list>
+        </property>
+        <!-- The property below is commented out b/c it doesn't work when run via
+             Ant in Eclipse.  It works fine for individual JUnit tests and in IDEA ??
+        <property name="mappingJarLocations">
+            <list><value>file:dist/appfuse-dao.jar</value></list>
+        </property>
+        -->
+        <property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">net.sf.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.connection.pool_size">5</prop>
+				<prop key="hibernate.show_sql">true</prop>								
+			</props>
+        </property>
+    </bean>
+
+    <!-- Transaction manager for a single Hibernate SessionFactory (alternative to JTA) -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate.HibernateTransactionManager">
+        <property name="sessionFactory"><ref local="sessionFactory"/></property>
+    </bean>
+
+
+    <!-- UserDAO: Hibernate implementation -->
+    <bean id="userDAO" class="org.skyinn.quasar.foo.dao.UserDAOHibernateImpl">
+        <property name="sessionFactory"><ref local="sessionFactory"/></property>
+    </bean>
+
+    <!-- Add new DAOs here -->
+
+</beans>
